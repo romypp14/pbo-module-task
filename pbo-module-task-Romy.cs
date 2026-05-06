@@ -247,7 +247,7 @@ class Program
         magang.Belajar();
 
         Console.WriteLine("\n=== SOAL 5: Penerapan Polymorphism — Variabel Karyawan menyimpan objek Staff ===");
-        Karyawan karyawanPolymorphism = new Staff("Agus Wijaya", 7000000, 1500000);
+        Karyawan karyawanPolymorphism = new Staff("Putra Satria", 8000000, 1000000);
 
         Console.WriteLine("\n=== DEMONSTRASI POLYMORPHISM (seluruh karyawan) ===");
         List<Karyawan> semuaKaryawan = new List<Karyawan> { manager, staff, magang, freelancer };
